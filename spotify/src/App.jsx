@@ -1,12 +1,17 @@
 import React from 'react';
+import { useState } from 'react';
+import reactLogo from './assets/react.svg';
+import './App.css';
+import HomePage from './HomePage.jsx';
 
 function App() {
   return (
-    <div>
-      <h1>Hello, world!</h1>
-      <p>Welcome to my React app.</p>
-    </div>
-  );
+    <>
+      <div>
+        <HomePage />
+      </div>
+    </>
+  )
 }
 
 export default App;
