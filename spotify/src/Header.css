@@ -1,0 +1,60 @@
+@import url('https://fonts.cdnfonts.com/css/gotham');
+
+img.logo {
+    padding: 0 15px;
+    width: 50%;
+    display: block;
+}
+
+span.logoHeader {
+    text-shadow: none;
+    border: 0;
+    width: 40%;
+    height: 40%;
+    font: 0/0 a;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+span{
+    font-size: 14px;
+    font-family: 'Gotham Medium', 'Gotham', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    float: left;
+    color: #fff;
+    margin-inline: 24px;
+    font-weight: bold;
+}
+
+span.opcion{
+    cursor: pointer;
+    float: right;
+}
+
+span.separador{
+    cursor: default;
+    float: right;
+    margin-inline: 12px;
+}
+
+span.opcion:hover{
+    color: #1ed760;
+}
+
+.columnHeader {
+    float: left;
+    width: 50%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+.rowHeader:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.headerContainer{
+    margin: 0 auto;
+    width: 100%;
+    background-color: black;
+}
