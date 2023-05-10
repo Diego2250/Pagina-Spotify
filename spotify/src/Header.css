@@ -1,10 +1,12 @@
 @import url('https://fonts.cdnfonts.com/css/gotham');
 
-img.logo {
+.logoHeaderImg {
     padding: 0 15px;
     width: 50%;
     display: block;
+    cursor: pointer;
 }
+
 
 span.logoHeader {
     text-shadow: none;
@@ -16,7 +18,7 @@ span.logoHeader {
     margin-left: 20px;
 }
 
-span{
+span.opcion, span.separador, span.logoHeader{
     font-size: 14px;
     font-family: 'Gotham Medium', 'Gotham', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
     float: left;
@@ -26,11 +28,13 @@ span{
 }
 
 span.opcion{
+    margin-top: 5px;
     cursor: pointer;
     float: right;
 }
 
 span.separador{
+    margin-top: 5px;
     cursor: default;
     float: right;
     margin-inline: 12px;

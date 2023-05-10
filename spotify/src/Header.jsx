@@ -7,7 +7,7 @@ const Header = () => {
         <div className="rowHeader">
             <div className="columnHeader">
                 <span className="logoHeader">
-                    <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png" alt="Spotify" />
+                    <img className="logoHeaderImg" src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png" alt="Spotify" />
                  </span>
             </div>
             <div className="columnHeader">

@@ -1,6 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/gotham');
 
-span.logoFooter {
+.logoFooter {
     text-shadow: none;
     border: 0;
     width: 100%;
@@ -10,50 +10,47 @@ span.logoFooter {
 }
 
 .containerFooter {
-background-color: #000000;
-
+    background-color: #000000;
+    margin: 0 auto;
+    width: 100%;
 }
 
-img {
+.logoFooterImg {
     padding: 0 15px;
-    width: 50%;
+    width: 70%;
     display: block;
 }
 
 img.socialFooter {
     padding: 0 15px;
-    width: 70%;
+    width: 90%;
     margin-bottom: 100px;
     cursor: pointer;
 }
 
-.containerFooter{
-    margin: 0 auto;
-    width: 100%;
-}
 
-span.titleFooter:hover{
+.text.titleFooter:hover{
     color: #919496;
 }
 
-span{
+.text{
     font-size: 16px;
-    font-family: 'Gotham Medium', 'Gotham', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
     margin-inline-start: 40px;
     margin: 0;
     float: left;
-    font-weight: 100;
+    font-weight: 450;
     color: #fff;
     cursor: pointer;
 }
 
 
-span:hover{
+.text:hover{
     color: #1ed760;
 }
 
 .titleFooter
 {
+    font-family: 'Gotham', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
     color: #919496;
     font-size: 12px;
     font-weight: 900;
@@ -65,9 +62,10 @@ span:hover{
 
 .columnFooter {
     float: left;
-    width: 20%;
-    margin-bottom: 100px;
-    margin-top: 20px;
+    width: 15%;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    margin-inline: 30px;
   }
 
 .rowFooter:after {
@@ -80,17 +78,21 @@ span:hover{
     float: left;
     width: 100%;
     margin-top: 20px;
+    margin-bottom: 70px;
+    margin-left: 70px;
 }
 
 .otherFooter{
+    font-family: 'Gotham', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
     color: #919496;
     margin-right: 50px;
     font-size: 12px;
 }
 
 .copyrightFooter{
+    font-family: 'Gotham', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
     float: right;
-    margin-right: 10px;
+    margin-right: 130px;
     color: #919496;
     font-size: 12px;
     cursor: default;
@@ -98,13 +100,15 @@ span:hover{
 
 
 .lastFooter {
+    font-family: 'Gotham', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
    float: right;
-    margin-right: 10px;
+    margin-right: 60px;
     color: #919496;
     font-size: 10px;
 }
 
 .copyrightFooter:hover{
+    font-family: 'Gotham', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
     color: #919496;
 }
 

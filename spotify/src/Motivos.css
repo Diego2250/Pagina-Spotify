@@ -1,0 +1,82 @@
+@import url('https://fonts.cdnfonts.com/css/gotham');
+
+.columnMotivos {
+    float: left;
+    width: 25%;
+    margin-bottom: 100px;
+  }
+
+.rowMotivos:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.tituloMotivos{
+    color: black;
+    max-width: 670px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Gotham', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+.LogoRazon{
+    display: inline-block;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    width: 142px;
+    height: 142px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 20px;
+}
+
+.Razon1Logo{
+    float: center;
+    background-image: url("https://i.scdn.co/image/ab671c3d0000f43009302fbaf6259b4c117c704f");
+}
+
+.Razon2Logo{
+    background-image: url("https://i.scdn.co/image/ab671c3d0000f43098292b95d24a697c20df5137");
+}
+
+.Razon3Logo{
+    background-image: url("https://i.scdn.co/image/ab671c3d0000f4306998d3ffd58aad6da6afdf67");
+}
+
+.Razon4Logo{
+    background-image: url("https://i.scdn.co/image/ab671c3d0000f430cd6c528745e510c5be63a012"); 
+}
+
+.containerMotivos{
+    margin: 0 auto;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.RazonTitulo{
+    display: inline-block;
+    font-family: 'Gotham', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 20px;
+    padding: 0px;
+    line-height: 1.3em;
+    color: #000000;
+    text-align: center;
+}
+
+.RazonDescripcion{
+    font-family: 'Gotham', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    width: 60%;
+    line-height: 1.5;
+    font-size: 15px;
+    padding: 0px;
+    color: #000000;
+    text-align: center;
+}
+
