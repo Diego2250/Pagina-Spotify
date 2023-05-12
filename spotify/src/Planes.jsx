@@ -48,7 +48,7 @@ const Planes = () => {
                             <br />
                             <span className='descripcionPlanes'>Después del período de la oferta, 7.99 USD al mes</span>
                             <br />
-                            <span className='descripcionPlanes'>2 cuenta</span>
+                            <span className='descripcionPlanes'>2 cuentas</span>
                             <hr className='linea' />
                             <div className='listaCaracteristicas'>
                             <svg role="img" focusable="false" height="24" width="24" viewBox="0 0 24 24" aria-label="" className='checkSVG'><polyline points="3.32 12.86 8.9 19.4 20.99 5.26" fill="none" stroke="#181818"></polyline></svg>
