@@ -1,0 +1,153 @@
+@import url('https://fonts.cdnfonts.com/css/gotham');
+
+.planes{
+    background-color: #efefef; 
+    margin: 0 auto;
+    width: 100%;
+    height: 800px;
+    color: #000000;
+    overflow: hidden;
+}
+
+.tituloPlanes{
+    font-size: 32px;
+    color: black;
+    font-weight: bold;
+    letter-spacing: -1.28px;
+    text-align: center;
+    margin-top: 70px;
+    padding: 0px;
+    font-family: 'Gotham', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+span.subtituloPlanes{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: normal;
+    text-align: center;
+    margin-bottom: 100px;
+    font-family: 'Gotham', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+.card {
+    float: left;
+    width: 22%;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    border-radius: 10px 10px 10px 10px;
+    text-align: left;
+    background-color: white;
+    box-shadow: rgb(255, 255, 255) 0px 10px 0px 0px,
+    rgba(0, 0, 0, 0.3) 0px 10px 10px;
+    height: 400px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-inline: 7px;
+    font-family: 'Gotham', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    transition: all .2s ease-in-out;
+  }
+  
+ .card:hover{
+    transform: scale(1.05) perspective(1px)
+ }
+
+  .checkSVG{
+    stroke-width: 1pt;
+  }
+
+.planesCards:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+div.mesesGratis{
+    border-radius: 4px;
+    font-size: 13px;
+    padding: 4px 8px;
+    font-weight: 900;
+    margin: 0px 4px 10px 0px;
+    margin-block: 0px 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(13, 114, 234);
+    text-align: left;
+    list-style-type: disc;
+    float: left;
+    font-family: 'Gotham', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+button {
+    color: #ffffff;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+  }
+  
+  .botonPlanes{
+      font-weight: bold;
+      border: 0;
+      background-color: #191515;
+      font-family: 'Gotham', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+      font-size: 13px;
+      border-radius: 500px;
+      padding-left: 105px;
+      padding-right: 105px;
+      margin-bottom: 10px;
+  }
+  
+  
+  .botonPlanes:hover { 
+    border: 0;
+    background-color: #000000;
+    color: #ffffff;
+    transform: scale(1.05) perspective(1px)
+  }
+
+  .segundoBoton{
+    margin-top: 50px;
+  }
+
+  .primerBoton{
+    margin-top: 40px;
+  }
+
+  span.tipo{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px 0px 5px;
+    padding: 0px;
+  }
+
+  .condiciones{
+    margin-top: 12px;
+    color: rgb(83, 83, 83);
+    font-size: 10px;
+    line-height: 16px;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .linkPlanes{
+    color: rgb(83, 83, 83);
+    text-decoration: underline;
+    font-size: 10px;
+    line-height: 16px;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .linkPlanes:hover{
+    color: rgb(83, 83, 83);
+  }
+
+  .primera{
+    margin-left: 130px;
+  }
+
+  .tercera{
+    margin-right: 130px;
+  }
+
+
