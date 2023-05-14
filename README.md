@@ -1,5 +1,14 @@
 # Pagina-Spotify
-Replica de la página web de spotify con react
+Replica de la página web de Spotify con react
+
+![image](https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Spotify_logo_with_text.svg/2560px-Spotify_logo_with_text.svg.png)
+
+## Tecnologías utilizaadas
+
+* [React]
+* [Vite]
+* [ESLint]
+* [PostCSS]
 
 ## Página original: www.spotify.com/gt/premium/
 
