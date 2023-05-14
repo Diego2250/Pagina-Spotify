@@ -1,7 +1,7 @@
 # Pagina-Spotify
 Replica de la página web de Spotify con react
 
-![image](https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Spotify_logo_with_text.svg/2560px-Spotify_logo_with_text.svg.png)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Spotify_logo_with_text.svg/2560px-Spotify_logo_with_text.svg.png" width="400" height="400">
 
 ## Tecnologías utilizaadas
 
