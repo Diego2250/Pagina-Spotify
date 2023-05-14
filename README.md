@@ -5,10 +5,10 @@ Replica de la página web de Spotify con react
 
 ## Tecnologías utilizaadas
 
-* React
-* Vite
-* ESLint
-* PostCSS
+* ![React]([https://eslint.org](https://eslint.org))
+* ![Vite](https://vitejs.dev)
+* ![ESLint](https://eslint.org)
+* ![PostCSS](https://postcss.org)
 
 ## Página original: www.spotify.com/gt/premium/
 
