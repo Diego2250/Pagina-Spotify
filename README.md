@@ -5,7 +5,7 @@ Replica de la página web de Spotify con react
 
 ## Tecnologías utilizaadas
 
-* [React]([https://eslint.org](https://eslint.org))
+* [React](https://es.react.dev)
 * [Vite](https://vitejs.dev)
 * [ESLint](https://eslint.org)
 * [PostCSS](https://postcss.org)
