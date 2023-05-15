@@ -10,6 +10,22 @@ Replica de la página web de Spotify con react
 * [ESLint](https://eslint.org)
 * [PostCSS](https://postcss.org)
 
+## ⏯️ Uso
+
+1. Clona el repositorio: 
+```
+git clone git@github.com:Diego2250/Pagina-Spotify.git
+```
+2. Instala las dependencias de Yarn:
+```
+yarn install
+```
+3. Ejecuta el servidor
+```
+yarn dev
+```
+4. Presiona la tecla "O" para abrir el proyecto en el navegador
+
 ## Página original: www.spotify.com/gt/premium/
 
 ![image](https://github.com/Diego2250/Pagina-Spotify/assets/77738746/3a96b269-e431-4796-aaa9-830deee08918)
