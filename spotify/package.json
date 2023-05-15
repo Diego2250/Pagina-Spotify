@@ -12,6 +12,8 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
     "babel-eslint": "^10.1.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
