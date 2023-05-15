@@ -153,3 +153,9 @@ button {
     text-decoration: underline;
     cursor: pointer;
 }
+
+.Contador{
+    text-align: left;
+    font-family: 'Gotham', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-weight: 400;
+}

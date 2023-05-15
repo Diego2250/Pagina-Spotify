@@ -1,4 +1,5 @@
 import "./Motivos.css";
+import React from "react";
 
 function Motivos() {
   return (

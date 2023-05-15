@@ -1,4 +1,6 @@
 import "./Promo.css";
+import Contador from "./Contador";
+import React from "react";
 
 function Promo() {
   return (
@@ -17,7 +19,10 @@ function Promo() {
             </h2>
             <br />
             <br />
-            <h2 className="textPromo">La oferta termina en 8 d: 0 h: 57 min</h2>
+            <h2 className="Contador">
+            <Contador fechaLimite="2023-06-15T00:00:00Z" />
+            </h2> 
+            <br />
             <br />
             <button className="buttonPromo" type="submit">
               OBTÉN 3 MESES POR 0.00 USD

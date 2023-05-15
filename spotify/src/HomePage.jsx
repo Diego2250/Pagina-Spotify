@@ -4,6 +4,7 @@ import Promo from "./Promo";
 import Motivos from "./Motivos";
 import Planes from "./Planes";
 import "./HomePage.css";
+import React from "react";
 
 function HomePage() {
   return (
