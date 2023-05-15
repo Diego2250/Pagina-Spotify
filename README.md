@@ -14,7 +14,7 @@ Replica de la página web de Spotify con react
 
 1. Clona el repositorio: 
 ```
-git@github.com:Diego2250/Pagina-Spotify.git
+git clone git@github.com:Diego2250/Pagina-Spotify.git
 ```
 2. Instala las dependencias de Yarn:
 ```
