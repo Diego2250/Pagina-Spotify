@@ -1,6 +1,6 @@
 import "./Promo.css";
-import Contador from "./Contador";
 import React from "react";
+import Contador from "./Contador";
 
 function Promo() {
   return (
@@ -20,8 +20,8 @@ function Promo() {
             <br />
             <br />
             <h2 className="Contador">
-            <Contador fechaLimite="2023-06-15T00:00:00Z" />
-            </h2> 
+              <Contador fechaLimite="2023-06-15T00:00:00Z" />
+            </h2>
             <br />
             <br />
             <button className="buttonPromo" type="submit">

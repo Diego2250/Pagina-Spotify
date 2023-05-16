@@ -1,5 +1,4 @@
-import { useState, useEffect } from "react";
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 function Contador({ fechaLimite }) {
   const [dias, setDias] = useState(0);
@@ -29,7 +28,7 @@ function Contador({ fechaLimite }) {
   }, [fechaLimite]);
 
   return (
-    <p className="Contador"> 
+    <p className="Contador">
       La oferta termina en: {dias} d: {horas} h: {minutos} min
     </p>
   );

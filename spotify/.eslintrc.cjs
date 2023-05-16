@@ -4,7 +4,7 @@ module.exports = {
     es2022: true,
     es6: true
   },
-  extends: ["plugin:react/recommended", "airbnb-base", "airbnb/rules/react", "plugin:prettier/recommended", "plugin:storybook/recommended"],
+  extends: ["plugin:react/recommended", "airbnb-base", "airbnb/rules/react", "plugin:storybook/recommended"],
   overrides: [],
   parserOptions: {
     ecmaVersion: 'latest',
