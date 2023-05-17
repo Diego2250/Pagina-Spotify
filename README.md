@@ -8,6 +8,8 @@ Replica de la página web de Spotify con react
 * [React](https://es.react.dev)
 * [Vite](https://vitejs.dev)
 * [ESLint](https://eslint.org)
+* [StoryBook](https://storybook.js.org)
+* [Vitest](https://vitest.dev)
 
 ## ⏯️ Uso
 
