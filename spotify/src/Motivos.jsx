@@ -1,5 +1,5 @@
-import "./Motivos.css";
-import React from "react";
+import "./Motivos.css"
+import React from "react"
 
 function Motivos() {
   return (
@@ -23,7 +23,9 @@ function Motivos() {
             <br />
             <span className="RazonDescripcion">
               Disfruta de tu música sin
-              <br /> interrupciones.
+              <br />
+              {" "}
+              interrupciones.
             </span>
           </div>
         </div>
@@ -49,7 +51,7 @@ function Motivos() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Motivos;
+export default Motivos

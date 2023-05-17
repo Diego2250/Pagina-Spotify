@@ -82,7 +82,7 @@ button {
     cursor: pointer;
     user-select: none;
     -webkit-user-select: none;
-    vertical-align: middle;
+    display: block;
   }
   
   .botonPlanes{
@@ -92,9 +92,9 @@ button {
       font-family: 'Gotham', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
       font-size: 13px;
       border-radius: 500px;
-      padding-left: 105px;
-      padding-right: 105px;
       margin-bottom: 10px;
+      width: 95%;
+      display: block;
   }
   
   

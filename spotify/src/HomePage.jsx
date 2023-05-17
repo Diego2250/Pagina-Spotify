@@ -1,10 +1,10 @@
-import Footer from "./Footer";
-import Header from "./Header";
-import Promo from "./Promo";
-import Motivos from "./Motivos";
-import Planes from "./Planes";
-import "./HomePage.css";
-import React from "react";
+import React from "react"
+import Footer from "./Footer"
+import Header from "./Header"
+import Promo from "./Promo"
+import Motivos from "./Motivos"
+import Planes from "./Planes"
+import "./HomePage.css"
 
 function HomePage() {
   return (
@@ -23,7 +23,7 @@ function HomePage() {
         <Footer />
       </div>
     </div>
-  );
+  )
 }
 
-export default HomePage;
+export default HomePage

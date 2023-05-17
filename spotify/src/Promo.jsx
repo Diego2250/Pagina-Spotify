@@ -1,6 +1,6 @@
-import "./Promo.css";
-import React from "react";
-import Contador from "./Contador";
+import "./Promo.css"
+import React from "react"
+import Contador from "./Contador"
 
 function Promo() {
   return (
@@ -50,7 +50,7 @@ function Promo() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Promo;
+export default Promo

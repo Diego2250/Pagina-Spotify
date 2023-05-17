@@ -1,21 +1,30 @@
 module.exports = {
   env: {
     browser: true,
-    es2022: true,
-    es6: true
+    es2021: true,
   },
-  extends: ["plugin:react/recommended", "airbnb-base", "airbnb/rules/react", "plugin:storybook/recommended"],
-  overrides: [],
+  extends: [
+    'plugin:react/recommended',
+    'airbnb',
+  ],
+  overrides: [
+  ],
   parserOptions: {
     ecmaVersion: 'latest',
-    sourceType: 'module'
+    sourceType: 'module',
   },
-  plugins: ['react'],
+  plugins: [
+    'react',
+  ],
+  "env": {
+    "jest": true,
+    "browser": true
+  },
   rules: {
-    "react/react-in-jsx-scope": "off",
-    "react/jsx-uses-react": "off",
-    "react/jsx-filename-extension": [1, {
-      "extensions": [".js", ".jsx", ".svg"]
-    }]
-  }
+    'semi':['error','never'],
+    'max-len':['error',{ 'code':120}],
+    'prefer-arrow-callback': 'error',
+    'quotes': ['error', 'double'],
+    'react/function-component-definition': 'off'
+  },
 };

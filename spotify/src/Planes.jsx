@@ -1,5 +1,5 @@
-import "./Planes.css";
-import React from "react";
+import "./Planes.css"
+import React from "react"
 
 function Planes() {
   return (
@@ -158,6 +158,7 @@ function Planes() {
                 EMPEZAR
               </button>
               <br />
+              <br />
               <p className="condiciones">
                 <a
                   className="linkPlanes"
@@ -260,7 +261,7 @@ function Planes() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Planes;
+export default Planes

@@ -1,5 +1,5 @@
-import "./Footer.css";
-import React from "react";
+import "./Footer.css"
+import React from "react"
 
 function Footer() {
   return (
@@ -69,14 +69,14 @@ function Footer() {
           <div className="socialiconsFooter">
             <img
               className="socialFooter"
-              src="src/assets/social-media.png"
+              src="socialMedia.png"
               alt="Social Media"
             />
           </div>
         </div>
       </div>
       <span className="text lastFooter">Guatemala</span>
-      <img className="worldFooter" src="src/assets/world.png" alt="" />
+      <img className="worldFooter" src="world.png" alt="" />
       <div className="rowFooter">
         <div className="column2Footer">
           <span className="text otherFooter">Legal</span>
@@ -88,7 +88,7 @@ function Footer() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Footer;
+export default Footer
